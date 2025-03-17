@@ -5,7 +5,7 @@ import React from 'react';
 export const FirstApp = ( title, subtitle ) => {
     return (
         <>
-            <h1>{ title }</h1>   
+            <h1>Hola</h1>   
             <h3>{subtitle}</h3>
         </>
     );
