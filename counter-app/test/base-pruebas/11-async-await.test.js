@@ -7,4 +7,10 @@ describe('Pruebas con async-await y Fetch', () => {
         expect(url.includes('http')).toBe(true);
         console.log(url);
     });
+    test('debe retornar un gif por defecto', async() => {
+        const url = await getImagen();
+        expect(url.includes('.gif')).toBe(true);
+        console.log(url);
+    
+    });
 });

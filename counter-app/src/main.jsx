@@ -10,6 +10,6 @@ import { CounterApp } from './CounterApp';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         {/* <CounterApp value= {0} /> */}
-        <FirstApp />
+        <FirstApp title='este es un prop de titulo' subtitle='este es es un prop de subtitulo'/>
     </React.StrictMode>
 );
