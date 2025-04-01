@@ -20,6 +20,13 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    env: {
+      jest: true,
+    },
+    extends: [
+      'eslint:recommended',
+      'plugin:jest/recommended',
+    ],
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,

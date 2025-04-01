@@ -1,4 +1,3 @@
-import { describe, test, expect } from '@jest/globals';
 import { retornaArreglo } from '../../src/base-pruebas/07-deses-arr';
 
 describe('Pruebas en 07-deses-arr', () => {

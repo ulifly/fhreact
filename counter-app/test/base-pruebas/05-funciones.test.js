@@ -1,4 +1,4 @@
-import { describe, test, expect } from '@jest/globals';
+
 import { getUser, getUsuarioActivo } from '../../src/base-pruebas/05-funciones'
 
 
